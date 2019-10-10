@@ -12,9 +12,9 @@ hls-360p.m3u8?2fhzC1POpPanuy9sVGqZ7B3s5ydPkeLoQCE1OQpln5FFG
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=155648,RESOLUTION=444x250,NAME="250p"
 hls-250p.m3u8?2fhzC1POpPanuy9sVGqZ7B3s5ydPkeLoQCE1OQpln5FFGJ
 
-The script automatically picks the best video quality stream and starts downloading the different part files, finally merging them together
-into a single .ts file.
+The script automatically picks the best video quality stream and starts downloading the different part files, finally merging them together into a single .ts file. The script uses my m3u8 parser for python (https://github.com/HWask/m3u8ParserPython).
 
 Usage: 
 - set the filename of the m3u8 file in m3u8Downloader.py
 - run m3u8Downloader.py
+
